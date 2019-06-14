@@ -9,7 +9,3 @@ info:
 logging:
   level:
     root: "INFO"
-swagger:
-  scheme: http
-  host: localhost:8080
-  basePath: /
