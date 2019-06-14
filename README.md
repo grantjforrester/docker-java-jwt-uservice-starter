@@ -1,4 +1,4 @@
-# Docker Java μService Starter
+# Docker Java Microservice Starter
 
 This project is a template for creating a Docker-based microservices using OpenJDK and Spring Boot.
 
