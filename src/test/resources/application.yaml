@@ -1,0 +1,15 @@
+# Returned from /actuator/info
+info:
+  app:
+    name: "@project.name@"
+    description: "@project.description@"
+    groupId: "@project.groupId@"
+    artifactId: "@project.artifactId@"
+    version: "@project.version@"
+logging:
+  level:
+    root: "INFO"
+    com:
+      ncr: "INFO"
+  pattern:
+    console: "%d{HH:mm:ss.SSS} %-5.5level %-50.50logger{36} %-30.30method - %msg%n"

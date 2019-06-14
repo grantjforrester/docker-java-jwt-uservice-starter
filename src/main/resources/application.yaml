@@ -1,0 +1,15 @@
+# Returned from /actuator/info
+info:
+  app:
+    name: "@project.name@"
+    description: "@project.description@"
+    groupId: "@project.groupId@"
+    artifactId: "@project.artifactId@"
+    version: "@project.version@"
+logging:
+  level:
+    root: "INFO"
+swagger:
+  scheme: http
+  host: localhost:8080
+  basePath: /
