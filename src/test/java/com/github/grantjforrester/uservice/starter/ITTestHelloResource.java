@@ -16,7 +16,7 @@ import static java.lang.String.format;
  * and runs RestAssured tests against running application.
  */
 @ExtendWith(SpringExtension.class)
-@SpringBootTest(webEnvironment=WebEnvironment.DEFINED_PORT)  // Defaults to 8080
+@SpringBootTest(webEnvironment=WebEnvironment.RANDOM_PORT)
 public class ITTestHelloResource {
 
     private static final String URL_TEMPLATE = "http://localhost:%d" + "/resources/hello";
