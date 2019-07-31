@@ -1,6 +1,15 @@
-# Docker Java Microservice Starter
+# Docker Java JWT Microservice Starter
 
-This project is a template for creating a Docker-based microservices using OpenJDK and Spring Boot.
+This project is a template for creating a Docker-based microservices using OpenJDK and Spring Boot. 
+The APIs exposed by this microservice are protected by JSON Web Token (JWT).
+
+The JWT must be signed using the HS256 algorithm with a secret key provided through Spring configuration 
+e.g. JWT_SECRET=thisIsASecret. For API behaviour with JWTs see 
+[ITTestHelloResource](src/test/java/com/github/grantjforrester/uservice/starter/ITTestHelloResource.java).
+
+Other key provider options are available. See the 
+[spring-security-jwt](https://github.com/grantjforrester/spring-security-jwt) library which provides the JWT
+security implementation.
 
 ## Building
 
