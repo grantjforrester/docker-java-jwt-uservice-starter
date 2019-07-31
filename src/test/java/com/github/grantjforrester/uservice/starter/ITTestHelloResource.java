@@ -64,11 +64,11 @@ public class ITTestHelloResource {
     @Test
     public void shouldReturn403IfNoRole() throws Exception {
         given().
-                header("Authorization", "Bearer " + NO_ROLE_JWT).
-                when().
-                get(resourceUrl).
-                then().
-                statusCode(403);
+            header("Authorization", "Bearer " + NO_ROLE_JWT).
+        when().
+            get(resourceUrl).
+        then().
+            statusCode(403);
     }
 
     @Test
