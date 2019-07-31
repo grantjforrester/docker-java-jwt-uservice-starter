@@ -24,7 +24,7 @@ $ mvn package
 Run with ...
 
 ```
-$ docker run -p 8080:8080 local/com.github.grantjforrester/docker-java-uservice-starter:<version>
+$ docker run -p 8080:8080 -e JWT_SECRET=thisIsASecret local/com.github.grantjforrester/docker-java-jwt-uservice-starter:<version>
 ```
 
 ## Exposed Ports

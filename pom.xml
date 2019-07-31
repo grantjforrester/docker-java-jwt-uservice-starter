@@ -10,7 +10,7 @@
     </parent>
 
     <groupId>com.github.grantjforrester</groupId>
-    <artifactId>docker-java-uservice-starter</artifactId>
+    <artifactId>docker-java-jwt-uservice-starter</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
